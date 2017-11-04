@@ -7,31 +7,14 @@
           <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="card">
-                        <!--<div class="header">
-                            <h2>
-                                EXAMPLE TAB
-                                <small>Add quick, dynamic tab functionality to transition through panes of local content</small>
-                            </h2>
-                            <ul class="header-dropdown m-r--5">
-                                <li class="dropdown">
-                                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                        <i class="material-icons">more_vert</i>
-                                    </a>
-                                    <ul class="dropdown-menu pull-right">
-                                        <li><a href="javascript:void(0);">Action</a></li>
-                                        <li><a href="javascript:void(0);">Another action</a></li>
-                                        <li><a href="javascript:void(0);">Something else here</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>-->
                         <div class="body">
                             <!-- Nav tabs -->
-                            <ul class="nav nav-tabs tab-nav-right" role="tablist">
+                            <ul class="nav nav-tabs nav-justified" role="tablist">
                             <li role="presentation" class="active"><a href="#home" data-toggle="tab">Calendario</a></li>
                                 <li role="presentation"><a href="#profile" data-toggle="tab">Resultados</a></li>
                                 <li role="presentation"><a href="#messages" data-toggle="tab">Posiciones</a></li>
                                 <li role="presentation"><a href="#settings" data-toggle="tab">Desenso</a></li>
+                                <li role="presentation"><a href="#settings" data-toggle="tab">Reclasificación</a></li>
                             </ul>
 
                             <!-- Tab panes -->
@@ -82,32 +65,32 @@
         </div>
     </section>
     <!-- Select Plugin Js -->
-    <script src="plugins/bootstrap-select/js/bootstrap-select.js"></script>
+    <script src="Admin/plugins/bootstrap-select/js/bootstrap-select.js"></script>
 
     <!-- Slimscroll Plugin Js -->
-    <script src="plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+    <script src="Admin/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
 
 
     <!-- Waves Effect Plugin Js -->
-    <script src="plugins/node-waves/waves.js"></script>
+    <script src="Admin/plugins/node-waves/waves.js"></script>
     <!-- Jquery CountTo Plugin Js -->
-    <script src="plugins/jquery-countto/jquery.countTo.js"></script>
+    <script src="Admin/plugins/jquery-countto/jquery.countTo.js"></script>
 
     <!-- Morris Plugin Js -->
-    <script src="plugins/raphael/raphael.min.js"></script>
-    <script src="plugins/morrisjs/morris.js"></script>
+    <script src="Admin/plugins/raphael/raphael.min.js"></script>
+    <script src="Admin/plugins/morrisjs/morris.js"></script>
 
     <!-- ChartJs -->
-    <script src="plugins/chartjs/Chart.bundle.js"></script>
+    <script src="Admin/plugins/chartjs/Chart.bundle.js"></script>
 
     <!-- Flot Charts Plugin Js -->
-    <script src="plugins/flot-charts/jquery.flot.js"></script>
-    <script src="plugins/flot-charts/jquery.flot.resize.js"></script>
-    <script src="plugins/flot-charts/jquery.flot.pie.js"></script>
-    <script src="plugins/flot-charts/jquery.flot.categories.js"></script>
-    <script src="plugins/flot-charts/jquery.flot.time.js"></script>
+    <script src="Admin/plugins/flot-charts/jquery.flot.js"></script>
+    <script src="Admin/plugins/flot-charts/jquery.flot.resize.js"></script>
+    <script src="Admin/plugins/flot-charts/jquery.flot.pie.js"></script>
+    <script src="Admin/plugins/flot-charts/jquery.flot.categories.js"></script>
+    <script src="Admin/plugins/flot-charts/jquery.flot.time.js"></script>
     <!-- Sparkline Chart Plugin Js -->
-    <script src="plugins/jquery-sparkline/jquery.sparkline.js"></script>
+    <script src="Admin/plugins/jquery-sparkline/jquery.sparkline.js"></script>
     <!-- Custom Js -->
 
-    <script src="js/pages/index.js"></script>
+    <script src="Admin/js/pages/index.js"></script>
