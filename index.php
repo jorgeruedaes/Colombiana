@@ -1,9 +1,12 @@
 	<?php  
 	include("menuinicial.php");
 	?>
-      <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="card">
+
+    <section class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="card">
                         <!--<div class="header">
                             <h2>
                                 EXAMPLE TAB
@@ -25,10 +28,10 @@
                         <div class="body">
                             <!-- Nav tabs -->
                             <ul class="nav nav-tabs tab-nav-right" role="tablist">
-                                <li role="presentation" class="active"><a href="#home" data-toggle="tab">HOME</a></li>
-                                <li role="presentation"><a href="#profile" data-toggle="tab">PROFILE</a></li>
-                                <li role="presentation"><a href="#messages" data-toggle="tab">MESSAGES</a></li>
-                                <li role="presentation"><a href="#settings" data-toggle="tab">SETTINGS</a></li>
+                            <li role="presentation" class="active"><a href="#home" data-toggle="tab">Calendario</a></li>
+                                <li role="presentation"><a href="#profile" data-toggle="tab">Resultados</a></li>
+                                <li role="presentation"><a href="#messages" data-toggle="tab">Posiciones</a></li>
+                                <li role="presentation"><a href="#settings" data-toggle="tab">Desenso</a></li>
                             </ul>
 
                             <!-- Tab panes -->
@@ -74,8 +77,8 @@
                     </div>
                 </div>
             </div>
-          
- 
+
+
         </div>
     </section>
     <!-- Select Plugin Js -->
@@ -103,8 +106,8 @@
     <script src="plugins/flot-charts/jquery.flot.pie.js"></script>
     <script src="plugins/flot-charts/jquery.flot.categories.js"></script>
     <script src="plugins/flot-charts/jquery.flot.time.js"></script>
-       <!-- Sparkline Chart Plugin Js -->
+    <!-- Sparkline Chart Plugin Js -->
     <script src="plugins/jquery-sparkline/jquery.sparkline.js"></script>
-        <!-- Custom Js -->
-   
+    <!-- Custom Js -->
+
     <script src="js/pages/index.js"></script>
